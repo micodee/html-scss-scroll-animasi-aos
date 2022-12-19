@@ -1,0 +1,41 @@
+@use 'scroll';
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital@0;1&family=Rancho&family=Rubik:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap");
+@mixin karla {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+@mixin rubik {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+@mixin rancho {
+  font-family: "Rancho", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+// ::-webkit-scrollbar {
+//   display: none;
+// }
+body {
+  @include karla();
+//   padding-bottom: 2000px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include rubik();
+}

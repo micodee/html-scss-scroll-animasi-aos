@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: red;
+}
+.start1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 5px;
+
+  .box1 {
+    margin: 0 20px;
+    background: linear-gradient(to bottom, salmon, red);
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+}
